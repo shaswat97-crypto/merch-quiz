@@ -81,7 +81,7 @@ function QuestionPage({ timeLeft, setTimeLeft, setResult }) {
               ))}
             </ul>
             <button className="button-20" disabled={!ans} onClick={handleNext}>
-              Next
+              {+id+1 == quizQuestions.length?'Submit':'Next'}
             </button>
           </div>
         </>

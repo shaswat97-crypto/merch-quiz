@@ -9,7 +9,7 @@ function ResultPage({ result, timeLeft }) {
         <p>
           You scored {result} out of {quizQuestions.length}
         </p>
-        <p>Time taken: {timeLeft} seconds</p>
+        <p>Time taken: {60-timeLeft} seconds</p>
       </div>
     </div>
   );
